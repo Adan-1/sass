@@ -1,0 +1,41 @@
+footer{
+    margin-top: 1rem;
+    background-color: $color1;
+    display: flex;
+    justify-content: space-evenly;
+    .footer__logo{
+        align-self: center;
+    }
+    .footer_redes{
+        h3{
+            font-family: $text-h1;
+        }
+        a{
+            font-family: $text-h1;
+            padding: 0.2rem;
+            &:hover{
+                border-radius: 15%;
+                background-color:rgb(250, 244, 183) ;
+            }
+        }
+
+    }
+    .footer__preguntas{
+        h3{
+            font-family: $text-h1;
+        }
+        a{
+            font-family: $text-h1;
+            padding: 0.2rem;
+            &:hover{
+                border-radius: 15%;
+                background-color:rgb(250, 244, 183) ;
+            }
+        }
+
+    }
+    iframe{
+        width: 15%;
+        height: max-content;
+    }
+}

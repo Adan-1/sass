@@ -3,7 +3,13 @@ main{
     flex-direction: column;
     align-items: center;
     margin: 1rem 0;
+    h2{
+        font-family: $text-h1;
+        margin-bottom: .5rem;
+    }
     p{
+        font-family: $text-p;
+        font-style: bold;
         width: 70%;
     }
 }

@@ -39,8 +39,77 @@ main {
   margin: 1rem 0;
 }
 
+main h2 {
+  font-family: "Koulen", cursive;
+  margin-bottom: .5rem;
+}
+
 main p {
+  font-family: "Roboto", sans-serif;
+  font-style: bold;
   width: 70%;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Koulen", cursive;
+}
+
+section article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section article p {
+  font-family: "Roboto", sans-serif;
+  width: 50%;
+}
+
+footer {
+  margin-top: 1rem;
+  background-color: #CDF0EA;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer .footer__logo {
+  align-self: center;
+}
+
+footer .footer_redes h3 {
+  font-family: "Koulen", cursive;
+}
+
+footer .footer_redes a {
+  font-family: "Koulen", cursive;
+  padding: 0.2rem;
+}
+
+footer .footer_redes a:hover {
+  border-radius: 15%;
+  background-color: #faf4b7;
+}
+
+footer .footer__preguntas h3 {
+  font-family: "Koulen", cursive;
+}
+
+footer .footer__preguntas a {
+  font-family: "Koulen", cursive;
+  padding: 0.2rem;
+}
+
+footer .footer__preguntas a:hover {
+  border-radius: 15%;
+  background-color: #faf4b7;
+}
+
+footer iframe {
+  width: 15%;
+  height: max-content;
 }
 
 * {
